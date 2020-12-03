@@ -5,7 +5,7 @@ LABEL version="1.0"
 LABEL description="SSH Enabled Ubuntu Image for Test and Dev purposes ONLY!"
 LABEL note="THIS IMAGE IS TO BE USED FOR TEST AND LEARNIGN PURPOSES ONLY! NOT TO BE USED IN A PRODUCTION ENVIRONMENT!"
 
-RUN apt-get update && apt-get install -y openssh-server
+RUN apt-get update && apt-get install -y openssh-server net-tools iproute2
 RUN mkdir /var/run/sshd
 
 # Setting root password
