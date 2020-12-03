@@ -39,7 +39,7 @@ Follow the same steps from before to get the container internal ip address
 
 SSH to the local port
 
-```ssh root@localhost -p 6969```
+```ssh root@localhost -p 6069```
 
 
 Based on : https://docs.docker.com/engine/examples/running_ssh_service/
